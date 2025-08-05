@@ -35,11 +35,11 @@ CREATE DATABASE sistema_pagamentos;
 ```bash
 psql -d sistema_pagamentos
 
-\i 01_criar_tabelas.sql
-\i 02_procedure_processar_pagamento.sql
-\i 03_trigger_log_estoque.sql
-\i 04_dados_exemplo.sql
-\i 05_testes_sistema.sql
+01_criar_tabelas.sql
+02_procedure_processar_pagamento.sql
+03_trigger_log_estoque.sql
+04_dados_exemplo.sql
+05_testes_sistema.sql
 ```
 
 ## Uso
@@ -144,5 +144,3 @@ O arquivo `05_testes_sistema.sql` inclui testes para:
 ## Requisitos
 
 - PostgreSQL 12 ou superior
-- Encoding UTF-8
-- Timezone UTC 
